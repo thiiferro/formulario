@@ -1,0 +1,136 @@
+*{
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: rgba(215, 176, 216, 0.4);
+}
+
+.form-container {
+    background-color: white;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -62px;
+    padding: 30px;
+}
+
+.form-header{
+    border-bottom: 1px solid #dfdfdf ;
+    height: 45px;
+}
+
+.form-header p{
+    color: #673ab7;
+    width: 150px;
+    border-bottom: 2px solid #673ab7;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+}
+
+.form-body{
+    padding: 30px;
+}
+
+.form-body p{
+    margin-bottom: 20px;
+}
+
+.form-title{
+    margin-bottom: 15px;
+}
+
+.header{
+    height: 160px;
+    background-color: #673ab7;
+    padding: 30px;
+}
+
+.header h3{
+    color: white;
+    margin: 0;
+    font-size: 15px;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+    color: #333;
+}
+
+p,
+label{
+    color: #444;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid #CCC;
+    padding: 10px 0;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"],
+textarea{
+    width: 400px;
+}
+
+textarea{
+    padding: 10px 5px;
+}
+
+.required-field{
+    color: red;
+}
+
+ul{
+    list-style: none;
+}
+
+.box-input,
+.optionals{
+    margin-bottom: 35px;
+}
+
+.block{
+    display: block;
+}
+
+.optional-list{
+    display: inline-block;
+    margin: 0 30px 30px 0;
+}
+
+.optional-list li{
+    margin-bottom: 5px;
+}
+
+.box-input p{
+    margin-bottom: 15px;
+}
+
+.btn-submit{
+    background-color: #444;
+    color: azure;
+    width: 100px;
+    border: 1px solid #dfdfdf;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-submit:hover{
+    background-color: #673ab7;
+    border: 1px solid black;
+    color: azure;
+}
